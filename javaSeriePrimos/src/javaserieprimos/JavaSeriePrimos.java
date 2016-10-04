@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package javaserieprimos;
-
+import java.util.*;
 /**
  *
  * @author rsilva
@@ -16,8 +16,13 @@ public class JavaSeriePrimos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int numero = 1, cont, objetivo=15, aux;
+        int numero = 1, cont, objetivo, aux;
         boolean primo;
+        
+        System.out.println("Ingrese la cantidad de números primos que desea ver:");
+        
+        Scanner sc = new Scanner(System.in);
+        objetivo = sc.nextInt();
         
         for(cont=0; cont<objetivo;numero++)
         {
