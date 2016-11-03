@@ -18,7 +18,7 @@ public class JavaBuscarPalabrasEnCadena {
         // TODO code application logic here
         
         String texto= "Este video es un tutorial de ejercicio de java y c++";
-        int longitud = 0;       int contador = 0;       String palabra_objetivo = "buebno";
+        int longitud = 0;       int contador = 0;       String palabra_objetivo = "de";
         int posicion = 0;       int veces_hallada = 0;       String palabra_rastreadora = "";
         
         for(int i=0; i<texto.length(); i++){
